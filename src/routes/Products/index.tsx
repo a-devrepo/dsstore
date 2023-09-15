@@ -8,15 +8,13 @@ export default function Products() {
         <main>
             <section>
                 <div className="container">
-                    <div className="products-menu">
-                        <div className="container products-menu-content-container">
-                            <nav className="products-nav-bar">
-                                <NavLink to="/products/computers">Computadores</NavLink>
-                                <NavLink to="/products/electronics" >Eletrônicos</NavLink>
-                                <NavLink to="/products/books">Livros</NavLink>
-                            </nav>
+                    <nav className="products-nav-bar mt20 mb20">
+                        <div className="products-menu-content-container">
+                            <NavLink to="/products/computers" className={({ isActive }) => isActive ? "menu-item menu-active" : "menu-item"}>Computadores</NavLink>
+                            <NavLink to="/products/electronics" className={({ isActive }) => isActive ? "menu-item menu-active" : "menu-item"}>Eletrônicos</NavLink>
+                            <NavLink to="/products/books" className={({ isActive }) => isActive ? "menu-item menu-active" : "menu-item"}>Livros</NavLink>
                         </div>
-                    </div>
+                    </nav>
                     <Outlet></Outlet>
                 </div>
             </section>

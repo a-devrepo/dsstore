@@ -1,17 +1,23 @@
-.products-menu {
+.products-nav-bar {
   height: 60px;
   background-color: var(--color-bg-tertiary);
   color: var(--color-font-secondary);
   display: flex;
   align-items: center;
-}
-
-.products-nav-bar {
-  display: flex;
+  font-size: 16px;
 }
 
 .products-menu-content-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 20px;
+}
+
+.menu-item {
+  margin-right: 20px;
+}
+
+.menu-active {
+  font-weight: 700;
 }
