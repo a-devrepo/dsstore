@@ -1,0 +1,17 @@
+.products-menu {
+  height: 60px;
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-font-secondary);
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.products-menu-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
