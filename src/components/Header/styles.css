@@ -1,0 +1,17 @@
+header {
+  height: 70px;
+  background-color: var(--color-bg-secondary);
+  color: var(--color-font-primary);
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.header-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
