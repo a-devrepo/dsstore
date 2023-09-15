@@ -4,7 +4,9 @@ export default function About() {
         <main>
             <section>
                 <div className="container">
-                    <h1>Sobre nós</h1>
+                    <div className="section-title mt20">
+                        <h1>Sobre nós</h1>
+                    </div>
                 </div>
             </section>
         </main>

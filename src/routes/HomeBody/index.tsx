@@ -4,7 +4,10 @@ export default function HomeBody() {
         <main>
             <section>
                 <div className="container">
-                    <h1>Bem Vindos</h1>
+                    <div className="section-title mt20">
+                        <h1>Bem Vindos!</h1>
+                    </div>
+
                 </div>
             </section>
         </main>
